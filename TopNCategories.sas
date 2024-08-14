@@ -14,7 +14,7 @@
 /*************************************************/
 %let data=SASHELP.CARS;
 %let report=Model;
-%let measure=MPG_Test;
+%let measure=MPG_City;
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
 %let n=5;
